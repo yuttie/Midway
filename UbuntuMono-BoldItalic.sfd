@@ -1,28 +1,28 @@
 SplineFontDB: 3.0
-FontName: UbuntuMono-BoldItalic
-FullName: Ubuntu Mono Bold Italic
-FamilyName: Ubuntu Mono
+FontName: Midway-BoldItalic
+FullName: Midway Bold Italic
+FamilyName: Midway
 Weight: Bold
-Copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
-Version: 0.80
+Copyright: Copyright 2015 Yuta Taniguchi\nCopyright 2011 Canonical Ltd.\nLicensed under the Ubuntu Font Licence 1.0
+Version: 0.1
 ItalicAngle: -13
 UnderlinePosition: -133
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
 InvalidEm: 0
-sfntRevision: 0x0000cccc
+sfntRevision: 0x0000199a
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 935 -1301570125 16283030]
+XUID: [1021 935 -1301570125 9264418]
 StyleMap: 0x0001
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1304432203
-ModificationTime: 1453032880
+ModificationTime: 1453036936
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -80,6 +80,7 @@ Lookup: 1 0 0 "'ss01' Style Set 1 lookup 19" { "'ss01' Style Set 1 lookup 19 sub
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 20" { "'ss01' Style Set 1 lookup 20 subtable"  } ['salt' ('grek' <'dflt' > 'latn' <'dflt' > ) 'ss01' ('grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 21" { "'ss01' Style Set 1 lookup 21 subtable"  } ['salt' ('grek' <'dflt' > 'latn' <'dflt' > ) 'ss01' ('grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ss02' Style Set 2 lookup 16 subtable" 0 0 0 1
  1 1 0
@@ -2238,7 +2239,7 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Bold Italic" "Ubuntu Mono Bold Italic Version 0.80" "" "Version 0.80" "" "Ubuntu and Canonical are registered trademarks of Canonical Ltd." "Dalton Maag Ltd" "Dalton Maag Ltd" "" "http://www.daltonmaag.com/" "http://www.daltonmaag.com/" "" "" "" "Ubuntu Mono" "Bold Italic" "Ubuntu Mono Bold Italic"
+LangName: 1033 "" "" "Bold Italic" "" "" "Version 0.1" "" "Ubuntu and Canonical are registered trademarks of Canonical Ltd." "Dalton Maag Ltd" "Dalton Maag Ltd" "" "http://www.daltonmaag.com/" "http://www.daltonmaag.com/" "" "" "" "Midway" "Bold Italic" "Midway Bold Italic"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -2247,6 +2248,8 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 64 16 4
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65616 1301
 
 StartChar: SF030000.001
@@ -2300,7 +2303,7 @@ EndChar
 
 StartChar: .null
 Encoding: 8 8 1
-AltUni2: 00001d.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 00001d.ffffffff.0
 Width: 500
 Flags: W
 LayerCount: 2
