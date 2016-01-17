@@ -3,7 +3,7 @@ FontName: Midway-Regular
 FullName: Midway
 FamilyName: Midway
 Weight: Book
-Copyright: Copyright 2015 Yuta Taniguchi\nCopyright 2011 Canonical Ltd.\nLicensed under the Ubuntu Font Licence 1.0
+Copyright: Copyright 2011 Canonical Ltd.\nCopyright 2015 Yuta Taniguchi\nLicensed under the Ubuntu Font Licence 1.0
 Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -133
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1304432203
-ModificationTime: 1453037513
+ModificationTime: 1453040296
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2324,7 +2324,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 16 4
+WinInfo: 48 16 4
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65611 1296
@@ -2380,7 +2380,7 @@ EndChar
 
 StartChar: .null
 Encoding: 8 8 1
-AltUni2: 000000.ffffffff.0 00001d.ffffffff.0
+AltUni2: 00001d.ffffffff.0 000000.ffffffff.0
 Width: 500
 Flags: W
 LayerCount: 2
