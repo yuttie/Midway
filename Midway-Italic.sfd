@@ -6,8 +6,8 @@ Weight: Book
 Copyright: Copyright 2011 Canonical Ltd.\nCopyright 2015 Yuta Taniguchi\nLicensed under the Ubuntu Font Licence 1.0
 Version: 0.1
 ItalicAngle: -13
-UnderlinePosition: -156.655
-UnderlineWidth: 23.5571
+UnderlinePosition: -156
+UnderlineWidth: 23
 Ascent: 800
 Descent: 200
 InvalidEm: 0
@@ -22,26 +22,26 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1304432203
-ModificationTime: 1453341080
+ModificationTime: 1453368781
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 5 9 3 6 2 10 2 4
-OS2TypoAscent: 816
-OS2TypoAOffset: 0
-OS2TypoDescent: -194
-OS2TypoDOffset: 0
-OS2TypoLinegap: 58
-OS2WinAscent: 978
-OS2WinAOffset: 0
-OS2WinDescent: 200
-OS2WinDOffset: 0
-HheadAscent: 978
-HheadAOffset: 0
-HheadDescent: -200
-HheadDOffset: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
 OS2SubXSize: 824
 OS2SubYSize: 766
 OS2SubXOff: 0
@@ -52,8 +52,8 @@ OS2SupXOff: 0
 OS2SupYOff: 562
 OS2StrikeYSize: 59
 OS2StrikeYPos: 294
-OS2CapHeight: 693
-OS2XHeight: 520
+OS2CapHeight: 729
+OS2XHeight: 547
 OS2Vendor: 'DAMA'
 OS2CodePages: 2000009f.56010000
 OS2UnicodeRanges: e00002ff.5000205b.00000000.00000000
@@ -2212,7 +2212,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 16 4
+WinInfo: 96 16 4
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "e" "" 
@@ -2264,7 +2264,7 @@ EndChar
 
 StartChar: .null
 Encoding: 8 8 1
-AltUni2: 000000.ffffffff.0 00001d.ffffffff.0
+AltUni2: 00001d.ffffffff.0 000000.ffffffff.0
 Width: 588
 VWidth: 1177
 Flags: W
@@ -15823,7 +15823,7 @@ StartChar: x
 Encoding: 120 120 91
 Width: 588
 VWidth: 1177
-Flags: W
+Flags: WO
 TtInstrs:
 PUSHW_2
  20
@@ -19670,7 +19670,7 @@ SplineSet
  642 722 642 722 665 709 c 1,26,-1
  622 630 l 1,27,28
  597 643 597 643 571 650 c 128,-1,29
- 545 657 545 657 514 657 c 0,30,31
+ 545 657 545 657 514 657 c 256,30,31
  483 657 483 657 457.5 648.5 c 128,-1,32
  432 640 432 640 411.5 620 c 128,-1,33
  391 600 391 600 374.5 566 c 128,-1,34
@@ -22517,7 +22517,7 @@ SplineSet
  589 569 589 569 576.5 522 c 128,-1,5
  564 475 564 475 536.5 436 c 128,-1,6
  509 397 509 397 464 371 c 128,-1,7
- 419 345 419 345 355 345 c 0,8,9
+ 419 345 419 345 355 345 c 256,8,9
  291 345 291 345 255 380.5 c 128,-1,10
  219 416 219 416 219 479 c 0,11,12
  219 521 219 521 231.5 568.5 c 128,-1,13
@@ -33344,7 +33344,7 @@ SplineSet
  298 209 298 209 293.5 187.5 c 128,-1,41
  289 166 289 166 289 146 c 0,42,43
  289 101 289 101 309.5 86.5 c 128,-1,44
- 330 72 330 72 367 72 c 0,45,46
+ 330 72 330 72 367 72 c 256,45,46
  404 72 404 72 438.5 79.5 c 128,-1,47
  473 87 473 87 504 99 c 1,48,-1
  502 15 l 1,49,50
@@ -44867,7 +44867,7 @@ SplineSet
  590 645 590 645 573.5 660 c 128,-1,45
  557 675 557 675 557 702 c 0,46,47
  557 736 557 736 578.5 755 c 128,-1,48
- 600 774 600 774 625 774 c 0,49,50
+ 600 774 600 774 625 774 c 256,49,50
  650 774 650 774 666.5 758.5 c 128,-1,51
  683 743 683 743 683 716 c 0,52,53
  683 684 683 684 661.5 664.5 c 128,-1,54
@@ -53604,7 +53604,7 @@ SplineSet
  298 209 298 209 294 187.5 c 128,-1,40
  290 166 290 166 290 146 c 0,41,42
  290 101 290 101 312.5 86.5 c 128,-1,43
- 335 72 335 72 372 72 c 0,44,45
+ 335 72 335 72 372 72 c 256,44,45
  409 72 409 72 442 79.5 c 128,-1,46
  475 87 475 87 505 99 c 1,47,-1
  503 15 l 1,0,1
@@ -73730,7 +73730,7 @@ LayerCount: 2
 Fore
 SplineSet
 309 443 m 1,0,1
- 354 458 354 458 400 458 c 0,2,3
+ 354 458 354 458 400 458 c 256,2,3
  446 458 446 458 480.5 443.5 c 128,-1,4
  515 429 515 429 538 403.5 c 128,-1,5
  561 378 561 378 572.5 344.5 c 128,-1,6
@@ -82352,7 +82352,7 @@ SplineSet
  565 142 565 142 543 102 c 128,-1,5
  521 62 521 62 482 36.5 c 128,-1,6
  443 11 443 11 391.5 -0.5 c 128,-1,7
- 340 -12 340 -12 283 -12 c 0,8,9
+ 340 -12 340 -12 283 -12 c 256,8,9
  226 -12 226 -12 176 -6 c 128,-1,10
  126 0 126 0 85 15 c 1,11,-1
  212 547 l 1,12,-1
@@ -104315,7 +104315,7 @@ SplineSet
  452 201 452 201 471.5 255 c 128,-1,20
  491 309 491 309 502 367 c 1,21,-1
  225 367 l 1,22,23
- 211 283 211 283 211 219 c 0,24,25
+ 211 283 211 283 211 219 c 256,24,25
  211 155 211 155 228 112 c 128,-1,26
  245 69 245 69 291 69 c 0,16,17
 449 730 m 0,27,28
