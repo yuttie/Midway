@@ -22,8 +22,8 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1304432203
-ModificationTime: 1453368781
-PfmFamily: 17
+ModificationTime: 1453433091
+PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
@@ -2264,7 +2264,7 @@ EndChar
 
 StartChar: .null
 Encoding: 8 8 1
-AltUni2: 00001d.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 00001d.ffffffff.0
 Width: 588
 VWidth: 1177
 Flags: W
