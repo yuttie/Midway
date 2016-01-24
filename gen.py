@@ -18,8 +18,6 @@ gen_flags = (
 
 for src_fp in sources:
     font = fontforge.open(src_fp)
-    font.selection.all()
-
     base = path.splitext(src_fp)[0]
     out_fp = base + '.otf'
     font.generate(out_fp, flags=gen_flags)
