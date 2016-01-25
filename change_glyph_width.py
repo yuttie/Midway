@@ -29,8 +29,8 @@ for src_fp in sources:
             target_lsb = target_sb * lsb / sb
             target_rsb = target_sb * rsb / sb
 
-        glyph.width = target_width
         glyph.left_side_bearing = target_lsb
         glyph.right_side_bearing = target_rsb
+        glyph.width = target_width
 
     font.save()
