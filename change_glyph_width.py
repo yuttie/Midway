@@ -1,5 +1,7 @@
 #!/usr/bin/python
 import fontforge
+import math
+import psMat
 import sys
 
 sources = [
@@ -15,6 +17,8 @@ for src_fp in sources:
     font = fontforge.open(src_fp)
 
     for glyph in font.glyphs():
+        glyph.transform(psMat.skew(math.radians(font.italicangle)))
+
         w = glyph.width
         lsb = glyph.left_side_bearing
         rsb = glyph.right_side_bearing
@@ -32,5 +36,7 @@ for src_fp in sources:
         glyph.left_side_bearing = target_lsb
         glyph.right_side_bearing = target_rsb
         glyph.width = target_width
+
+        glyph.transform(psMat.skew(math.radians(-font.italicangle)))
 
     font.save()
