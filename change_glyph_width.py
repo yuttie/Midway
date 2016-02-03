@@ -4,18 +4,7 @@ import math
 import psMat
 import sys
 
-sources = [
-    'Midway-Regular.sfd',
-    'Midway-Bold.sfd',
-    'Midway-Italic.sfd',
-    'Midway-BoldItalic.sfd',
-]
-
-target_width = int(sys.argv[1])
-
-for src_fp in sources:
-    font = fontforge.open(src_fp)
-
+def change_glyph_width(font, target_width):
     for glyph in font.glyphs():
         glyph.transform(psMat.skew(math.radians(font.italicangle)))
 
@@ -40,3 +29,16 @@ for src_fp in sources:
         glyph.transform(psMat.skew(math.radians(-font.italicangle)))
 
     font.save()
+
+sources = [
+    'Midway-Regular.sfd',
+    'Midway-Bold.sfd',
+    'Midway-Italic.sfd',
+    'Midway-BoldItalic.sfd',
+]
+
+target_width = int(sys.argv[1])
+
+for src_fp in sources:
+    font = fontforge.open(src_fp)
+    change_glyph_width(font, target_width)
