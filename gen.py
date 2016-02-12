@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/fontforge -quiet -script
 import fontforge
 from os import path
 
