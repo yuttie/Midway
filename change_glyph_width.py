@@ -1,4 +1,4 @@
-#!/usr/bin/fontforge -quiet -script
+#!/usr/bin/fontforge -script
 import fontforge
 import math
 import psMat

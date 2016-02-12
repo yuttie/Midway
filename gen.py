@@ -1,4 +1,4 @@
-#!/usr/bin/fontforge -quiet -script
+#!/usr/bin/fontforge -script
 import fontforge
 from os import path
 
