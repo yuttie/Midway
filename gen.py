@@ -1,13 +1,8 @@
 #!/usr/bin/fontforge -script
 import fontforge
-from os import path
+import sys
 
-sources = [
-    'Midway-Regular.sfd',
-    'Midway-Bold.sfd',
-    'Midway-Italic.sfd',
-    'Midway-BoldItalic.sfd',
-]
+
 gen_flags = (
     'opentype',
     'dummy-dsig',
@@ -16,9 +11,9 @@ gen_flags = (
     'omit-instructions',
 )
 
-for src_fp in sources:
-    font = fontforge.open(src_fp)
-    base = path.splitext(src_fp)[0]
-    out_fp = base + '.otf'
-    font.generate(out_fp, flags=gen_flags)
-    font.close()
+src_fp  = sys.argv[1]
+dest_fp = sys.argv[2]
+
+font = fontforge.open(src_fp)
+font.generate(dest_fp, flags=gen_flags)
+font.close()
