@@ -1,0 +1,8 @@
+v0.1 (2016-02-26)
+=================
+
+In this release, the following changes have made since the original Ubuntu Mono 0.83:
+
+- Extended the middle line of 'm' to the base line.
+- Lengthened the hyphen.
+- Adjusted line spacing and letter spacing.
