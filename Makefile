@@ -6,7 +6,7 @@ OTFS = $(SRCS:.sfd=.otf)
 
 .PHONY: all clean
 
-all: $(OTFS)
+all: $(OTFS) $(SRCS:.sfd=-w550.sfd)
 
 clean:
 	rm -rf $(OTFS)
